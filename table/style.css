@@ -1,0 +1,30 @@
+@charset ¨utf-8¨;
+
+table{
+    display: flex;
+}
+
+table{
+        justify-content: end;
+}
+
+
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px #666;
+}
+td{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+td:first-child{
+    background-color: darkgray;
+    color: white;
+}
+
+tr:nth-child(even){
+    background: lightgray;
+}

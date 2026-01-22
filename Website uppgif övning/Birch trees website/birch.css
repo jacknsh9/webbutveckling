@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+header{
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 5px 0;
+
+}
+
+nav{
+    background: gray;
+}
+
+
+nav a:hover{
+    background: #333;
+}
+
+
+
+
+
+
+footer{
+    color: white;
+    text-align: center;
+    background: #333;
+    padding: auto;
+    
+
+}
+
+main{
+    display: grid;
+    height: 100vh;
+    grid-template: 1fr 1fr 1fr ;
+    grid-template-areas:
+    "a a . b b"
+    "c c . d d "
+    "e e . f f"
+    "g g . h h"
+    
+    
+    ;
+
+}
+
+
+
+#a{
+ 
+    grid-area:a;
+    padding: 10PX;
+   
+}
+#b{
+    background: url(/images/birchwood1.webp);
+    background-size: cover;
+    grid-area:b;
+}   
+#c{
+    background: url(/images/birchwood2.jpg);
+    background-size: cover;
+    grid-area:c;
+}
+#d{
+    background: url(/images/birchwood3.jpg);
+    background-size: cover;
+    grid-area:d;
+}
+
+#e{
+    background: url(/images/birchwood4.jpg);
+    background-size: cover;
+    grid-area:e;
+}
+#f{
+    padding: 10px;
+    grid-area:f;
+}
+#g{
+    background: url(/images/birchwood5.jpg);
+    background-size: cover;
+    grid-area:g;
+}
+#h{
+    background: url(/images/birchwood6.webp);
+    background-size: cover;
+    grid-area:h;
+}
+
+
+body{
+background-image: url(/images/80463402-natural-wood-background-with-birch-bark-texture.jpg);
+background-size: cover;
+margin: auto;
+}

@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#mainMenu{
+    display: flex;
+}
+
+#mainMenu > ul > li{
+    position: relative;
+}
+
+#subMenu{
+    display: none;
+    position: absolute;
+}
+
+#mainMenu > li:hover #subMenu{
+    display: block;
+}

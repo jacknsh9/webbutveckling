@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+table{
+    border-style: solid;
+    border-color: red;
+    color: white;
+    background: purple;
+    width: 80%;
+}
+
+nav{
+    background: gray;
+}
+
+
+nav a:hover{
+    background: #333;
+}
+
+
+
+
+header{
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 5px 0;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background: #333;
+    margin: 0;
+
+}
+
+
+body{
+    background-color: pink;
+  margin: 0;
+}

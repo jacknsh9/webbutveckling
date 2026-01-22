@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+#wrapper{
+    display: flex;
+
+}
+
+main{
+    flex: 3;
+  
+
+}
+
+aside{
+    flex: 1;
+  
+}
+
+main, aside{
+    border: 1px solid #DDD;
+    padding: 14px;
+    margin: 14px;
+}
+
+#podcasts{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas:
+        "banner  img1 txt1"
+        "banner  img2 txt2"
+        "latest  img3 txt3"
+        "latest  img4 txt4"
+    ;
+    gap: 10px;
+}
+
+#podcasts article{
+    padding: 10px;
+}
+
+#banner{
+    grid-area: banner;
+    background: url(images/moonlanding.webp);
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#latest{
+    grid-area: latest;
+}
+#castImg1{
+
+    grid-area: img1;
+    background: url(images/vitruvian_man_da_vinci.webp);
+    background-size: cover;
+}
+
+#castInfo1{
+
+    grid-area: txt1;
+}
+
+#castImg2{
+    grid-area: img2;
+    background: url(images/napoleon.webp);
+    background-size: cover;
+}
+
+#castInfo2{
+    grid-area: txt2;
+}
+
+#castImg3{
+    grid-area: img3;
+    background: url(images/pyramids.webp);
+    background-size: cover;
+}
+
+#castInfo3{
+    grid-area: txt3;
+}
+
+#castImg4{
+    background: url(images/ali.webp);
+    background-size: cover;
+    grid-area: img4;
+}
+
+#castInfo4{
+    grid-area: txt4;
+}
+
+h2{
+    font: 40px "Bebas Neue", verdana, sans-serif;
+    font-weight: 700;
+    color: darkred;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+}
+
+h3{
+    font: 36px "Bebas Neue", verdana, sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h4, h5{
+    font: 17px arial, verdana;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: square;
+    font: 17px arial, verdana;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 0 1em;
+    text-transform: uppercase;
+}
+
+li{
+    margin: .4em;
+}
+
+span{
+    color: darkred;
+}
+
+p{
+    font-family: verdana;
+}

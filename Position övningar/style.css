@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#red{
+   background: red;
+   width: 200px;
+   height: 200px;
+   position: relative;
+    top: 600px;
+    left: 800px;
+   
+    
+}
+
+
+#green{
+    background: greenyellow;
+    border-radius: 200px;
+    height: 200px;
+    position: relative;
+    top: -100px;          
+    left: -50px;
+}
+
+#blue{
+
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -200px;         
+    left: 0;
+}

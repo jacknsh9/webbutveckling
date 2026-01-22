@@ -1,0 +1,29 @@
+@charset "UTF-8";
+h2{
+    font-family: "Fira sans", sans-serif;
+}
+
+header{
+    text-align: center;
+    background: gray;
+    margin: 0px;
+
+   
+}
+
+footer{
+    text-align: center;
+    background: gray;
+    
+}
+
+
+#dev{
+    font-family: "Fira sans", sans-serif;
+   
+}
+
+body{
+    background-color:white;
+    margin: 0px;
+}

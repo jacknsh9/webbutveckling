@@ -1,0 +1,10 @@
+article{
+   display: flex;
+
+}
+section p{
+    flex: 1;
+    padding: 10px;
+    background: green
+     color
+}

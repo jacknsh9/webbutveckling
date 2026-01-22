@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: url(/images/green-grass-hill-background-isolated-on-white-outdoor-abstract-background-for-natural-template-design-vector.jpg);
+    background-size: cover;
+     margin: 0;   
+}
+
+
+
+header{
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 5px 0;
+
+}
+
+
+nav{
+    border-radius: 2%;
+    background-color: gray;
+}
+
+nav a:hover{
+    background: #333;
+}
+
+
+
+footer{
+    color: white;
+    text-align: center;
+    background: #333;
+  
+}
+#skibidi{
+    color: white;
+    background: green;
+    border-radius: 18px;
+    width: 250px;
+
+}
+
+
+#picture{
+   size: 100px;
+}
+
+
+
+
