@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* Behöver nästan alltid ange margin: 0 för body */
+body{
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    width:100%;
+   background-color: gray;
+   text-align: center;
+   height: 7,5vh;
+
+   
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    h2{
+        margin: 0;
+    }
+
+    a:hover{
+        background-color: rgb(110, 105, 105);
+        color: white;
+        
+    }
+    #sec{
+
+        height: 100vh;
+        padding: 200px;
+        font-size: 40px;
+    }
+    
+    #na{
+        height: 100vh;
+        padding: 200px;
+        font-size: 40px;
+        
+    }
+    
+    #hea{
+        height: 100vh;
+        padding: 200px;
+        font-size: 40px;
+        
+    }
+    
+    #asid{
+        height: 100vh;
+        padding: 200px;
+        font-size: 40px;
+    }
+    
+    #artic{
+        height: 100vh;
+        padding: 200px;
+        font-size: 40px;
+        
+    }
+    
+    #foot{
+        height: 100vh;
+        padding: 200px;
+        font-size: 40px;
+        
+    }
+    
+    #ma{
+        height: 100vh;
+        padding: 200px;
+        font-size: 40px;
+    }
+    
+
+
+    body{
+        background-color: aqua;
+
+
+    }
+
+
+
